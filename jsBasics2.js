@@ -11,7 +11,7 @@ function magic_multiply(x, y){
     }else if( x.constructor === String && y.constructor === Number){
       var resultString = x;
       for (i=0; i<y; i++)
-      {  
+      {   console.log(resultString);
           resultString =resultString.concat(x);
       }
       return resultString;
